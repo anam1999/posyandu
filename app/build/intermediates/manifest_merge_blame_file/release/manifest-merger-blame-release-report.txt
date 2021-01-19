@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fragmenpercobaan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:23:5-68
+14-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:23:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:24:5-79
+15-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:25:5-81
+16-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:25:22-78
+17
+18    <application
+18-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:9:5-39:19
+19        android:allowBackup="true"
+19-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->[com.kishan.askpermission:askpermission:1.0.3] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\8a0ac9cd06e148354b1a6f0015a74b27\jetified-askpermission-1.0.3\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppThemeS"
+26-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:14:9-41
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:15:9-44
+28        <activity android:name="com.example.fragmenpercobaan.Activity.Kb" />
+28-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:16:9-58
+28-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:16:19-46
+29        <activity android:name="com.example.fragmenpercobaan.Activity.Imunisasi" />
+29-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:17:9-56
+29-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:17:19-53
+30        <activity android:name="com.example.fragmenpercobaan.Activity.Kontrol_Kehamilan" />
+30-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:18:9-64
+30-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:18:19-61
+31        <activity android:name="com.example.fragmenpercobaan.Activity.Kms" />
+31-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:19:9-50
+31-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:19:19-47
+32        <activity android:name="com.example.fragmenpercobaan.EditKms" />
+32-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:20:9-45
+32-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:20:19-42
+33        <activity android:name="com.example.fragmenpercobaan.ScanQRCodeDataKMS" />
+33-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:21:9-55
+33-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:21:19-52
+34        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentScanQRCode" />
+34-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:22:9-65
+34-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:22:19-62
+35        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentKontrolHamil" />
+35-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:23:9-67
+35-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:23:19-64
+36        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentImunisasi" />
+36-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:24:9-64
+36-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:24:19-61
+37        <activity android:name="com.example.fragmenpercobaan.MainActivity" />
+37-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:25:9-50
+37-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:25:19-47
+38        <activity android:name="com.example.fragmenpercobaan.Fragment.PaketFragment" />
+38-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:26:9-60
+38-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:26:19-57
+39        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentToko" />
+39-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:27:9-59
+39-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:27:19-56
+40        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentVideo" />
+40-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:28:9-60
+40-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:28:19-57
+41        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentBeranda" />
+41-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:29:9-62
+41-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:29:19-59
+42        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentIbu" />
+42-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:30:9-58
+42-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:30:19-55
+43        <activity android:name="com.example.fragmenpercobaan.Fragment.FragmentAnak" />
+43-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:31:9-59
+43-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:31:19-56
+44        <activity android:name="com.example.fragmenpercobaan.Home" >
+44-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:32:9-38:20
+44-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:32:19-39
+45            <intent-filter>
+45-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:33:13-37:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:34:17-69
+46-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:34:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:36:17-77
+48-->C:\Users\anam\AndroidStudioProjects\FragmenPercobaan\app\src\main\AndroidManifest.xml:36:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:28:9-34:35
+53            android:name="androidx.work.impl.WorkManagerInitializer"
+53-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:29:13-69
+54            android:authorities="com.example.fragmenpercobaan.workmanager-init"
+54-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:30:13-68
+55            android:directBootAware="false"
+55-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:31:13-44
+56            android:exported="false"
+56-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:32:13-37
+57            android:multiprocess="true" />
+57-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:33:13-40
+58
+59        <service
+59-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:36:9-41:35
+60            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+60-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:37:13-88
+61            android:directBootAware="false"
+61-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:38:13-44
+62            android:enabled="@bool/enable_system_alarm_service_default"
+62-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:39:13-72
+63            android:exported="false" />
+63-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:40:13-37
+64        <service
+64-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:42:9-48:35
+65            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+65-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:43:13-84
+66            android:directBootAware="false"
+66-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:44:13-44
+67            android:enabled="@bool/enable_system_job_service_default"
+67-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:45:13-70
+68            android:exported="true"
+68-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:46:13-36
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:47:13-69
+70
+71        <receiver
+71-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:50:9-55:35
+72            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+72-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:51:13-88
+73            android:directBootAware="false"
+73-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:52:13-44
+74            android:enabled="true"
+74-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:53:13-35
+75            android:exported="false" />
+75-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:54:13-37
+76        <receiver
+76-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:56:9-66:20
+77            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+77-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:57:13-106
+78            android:directBootAware="false"
+78-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:58:13-44
+79            android:enabled="false"
+79-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:59:13-36
+80            android:exported="false" >
+80-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:60:13-37
+81            <intent-filter>
+81-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:62:13-65:29
+82                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+82-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:63:17-87
+82-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:63:25-84
+83                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+83-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:64:17-90
+83-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:64:25-87
+84            </intent-filter>
+85        </receiver>
+86        <receiver
+86-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:67:9-77:20
+87            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+87-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:68:13-104
+88            android:directBootAware="false"
+88-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:69:13-44
+89            android:enabled="false"
+89-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:70:13-36
+90            android:exported="false" >
+90-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:71:13-37
+91            <intent-filter>
+91-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:73:13-76:29
+92                <action android:name="android.intent.action.BATTERY_OKAY" />
+92-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:74:17-77
+92-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:74:25-74
+93                <action android:name="android.intent.action.BATTERY_LOW" />
+93-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:75:17-76
+93-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:75:25-73
+94            </intent-filter>
+95        </receiver>
+96        <receiver
+96-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:78:9-88:20
+97            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+97-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:79:13-104
+98            android:directBootAware="false"
+98-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:80:13-44
+99            android:enabled="false"
+99-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:81:13-36
+100            android:exported="false" >
+100-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:82:13-37
+101            <intent-filter>
+101-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:84:13-87:29
+102                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+102-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:85:17-83
+102-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:85:25-80
+103                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+103-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:86:17-82
+103-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:86:25-79
+104            </intent-filter>
+105        </receiver>
+106        <receiver
+106-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:89:9-98:20
+107            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+107-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:90:13-103
+108            android:directBootAware="false"
+108-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:91:13-44
+109            android:enabled="false"
+109-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:92:13-36
+110            android:exported="false" >
+110-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:93:13-37
+111            <intent-filter>
+111-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:95:13-97:29
+112                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+112-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:96:17-79
+112-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:96:25-76
+113            </intent-filter>
+114        </receiver>
+115        <receiver
+115-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:99:9-110:20
+116            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+116-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:100:13-88
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:101:13-44
+118            android:enabled="false"
+118-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:102:13-36
+119            android:exported="false" >
+119-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:103:13-37
+120            <intent-filter>
+120-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:105:13-109:29
+121                <action android:name="android.intent.action.BOOT_COMPLETED" />
+121-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:106:17-79
+121-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:106:25-76
+122                <action android:name="android.intent.action.TIME_SET" />
+122-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:107:17-73
+122-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:107:25-70
+123                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+123-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:108:17-81
+123-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:108:25-78
+124            </intent-filter>
+125        </receiver>
+126        <receiver
+126-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:111:9-120:20
+127            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+127-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:112:13-99
+128            android:directBootAware="false"
+128-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:113:13-44
+129            android:enabled="@bool/enable_system_alarm_service_default"
+129-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:114:13-72
+130            android:exported="false" >
+130-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:115:13-37
+131            <intent-filter>
+131-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:117:13-119:29
+132                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+132-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:118:17-98
+132-->[androidx.work:work-runtime:2.0.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\aa6708b100a62bf8de861016aad9c33c\work-runtime-2.0.0\AndroidManifest.xml:118:25-95
+133            </intent-filter>
+134        </receiver>
+135
+136        <provider
+136-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+137            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+137-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+138            android:authorities="com.example.fragmenpercobaan.lifecycle-process"
+138-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+139            android:exported="false"
+139-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+140            android:multiprocess="true" />
+140-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\anam\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+141    </application>
+142
+143</manifest>
