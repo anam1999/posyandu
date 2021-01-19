@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".EditKms">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name_kms"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:text="nama"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="12sp"
+                android:text="nama_anak"/>
+
+            <EditText
+                android:id="@+id/nama_kms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border_form"
+                android:paddingLeft="16dp"
+                android:hint="Nama Anak"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:textSize="12sp"
+                    android:text="umur"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/umur_kms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border_form"
+                android:paddingLeft="16dp"
+                android:hint="Umur"
+                android:inputType="date"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:textSize="12sp"
+                    android:text="Berat_Badan"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/berat_kms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border_form"
+                android:paddingLeft="16dp"
+                android:hint="Berat Badan"
+                android:inputType="datetime"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:textSize="12sp"
+                    android:text="Tinggi Badan"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tinggi_kms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border_form"
+                android:paddingLeft="16dp"
+                android:hint="Tinggi_Badan"
+                android:inputType="date"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="12sp"
+                    android:paddingRight="8dp"
+                    android:text="Suhu"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/suhu_kms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border_form"
+                android:paddingLeft="16dp"
+                android:hint="Suhu"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bt_edit_kms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textSize="14sp"
+                android:minHeight="0dp"
+                android:padding="14dp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/scan_kms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan KMS"
+                android:textSize="14sp"
+                android:minHeight="0dp"
+                android:padding="14dp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

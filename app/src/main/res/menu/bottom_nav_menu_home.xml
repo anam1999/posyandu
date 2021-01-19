@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_anak"
+        android:icon="@drawable/ic_baby"
+        android:title="Anak"/>
+    <item
+        android:id="@+id/navigation_ibu"
+        android:icon="@drawable/ic_ibu"
+        android:title="Ibu"/>
+
+    <item
+        android:id="@+id/navigation_beranda"
+        android:icon="@drawable/ic_beranda"
+        android:title="Beranda"/>
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/ic_video"
+        android:title="Video"/>
+    <item
+        android:id="@+id/navigation_toko"
+        android:icon="@drawable/ic_marketplace"
+        android:title="Toko"/>
+</menu>

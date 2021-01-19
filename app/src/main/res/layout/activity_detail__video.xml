@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activity.Detail_Video">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/juduls"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="16dp"
+                android:hint="Nama Anak"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/deskripsis"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="16dp"
+                android:hint="Nama Anak"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/kategoris"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="16dp"
+                android:hint="Nama Anak"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/pemerans"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="16dp"
+                android:hint="Nama Anak"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+
+            <VideoView
+                android:id="@+id/detailvideo"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

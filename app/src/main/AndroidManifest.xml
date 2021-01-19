@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fragmenpercobaan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeS"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Chats"></activity>
+        <activity android:name=".Activity.Pesan" />
+        <activity android:name=".Fragment.FragmentVideos" />
+        <activity
+            android:name=".Activity.Detail_Video"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Activity.Kb" />
+        <activity android:name=".Activity.Imunisasi" />
+        <activity android:name=".Activity.Kontrol_Kehamilan" />
+        <activity android:name=".Activity.Kms" />
+        <activity android:name=".EditKms" />
+        <activity android:name=".ScanQRCodeDataKMS" />
+        <activity android:name=".Fragment.FragmentScanQRCode" />
+        <activity android:name=".Fragment.FragmentKontrolHamil" />
+        <activity android:name=".Fragment.FragmentImunisasi" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Fragment.PaketFragment" />
+        <activity android:name=".Fragment.FragmentToko" />
+        <activity android:name=".Fragment.FragmentVideo" />
+        <activity android:name=".Fragment.FragmentBeranda" />
+        <activity android:name=".Fragment.FragmentIbu" />
+        <activity android:name=".Fragment.FragmentAnak" />
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

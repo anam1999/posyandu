@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_beranda">
+
+    <fragment
+        android:id="@+id/navigation_anak"
+        android:name="com.example.fragmenpercobaan.Fragment.FragmentVideos"
+        android:label="Anak"
+        tools:layout="@layout/activity_fragment_videos"/>
+
+    <fragment
+        android:id="@+id/navigation_ibu"
+        android:name="com.example.fragmenpercobaan.Fragment.FragmentIbu"
+        android:label="Ibu"
+        tools:layout="@layout/activity_fragment_ibu"/>
+
+    <fragment
+        android:id="@+id/navigation_beranda"
+        android:name="com.example.fragmenpercobaan.Fragment.FragmentBeranda"
+        android:label="Beranda"
+        tools:layout="@layout/activity_fragment_beranda"/>
+
+    <fragment
+        android:id="@+id/navigation_video"
+        android:label="Video"
+        android:name="com.example.fragmenpercobaan.Fragment.FragmentVideo"
+        tools:layout="@layout/activity_fragment_video"/>
+
+    <fragment
+        android:id="@+id/navigation_toko"
+        android:name="com.example.fragmenpercobaan.Fragment.FragmentScanQRCode"
+        android:label="Toko"
+        tools:layout="@layout/activity_fragment_scan_q_r_code"/>
+
+</navigation>
